@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.flyCard{
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 466px;
+  height: 583px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.slider{
+  width: 100%;
+  /* border-radius: 30px; */
+}
+.slider img{
+  /* border-radius: 30px; */
+  width: 100%;
+}
+.slider::before{
+  content: "";
+  width: 98%;
+  border: 30px;
+  overflow: hidden;
+  background: url(./images/members/2.jpg);
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+.detail{
+  width: 100%;
+  margin: 10px auto;
+  padding: 6px;
+}
+.start{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  padding: auto 10px;
+}
+.name h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.name h2{
+  font-size: 18px;
+  font-weight: 200;
+}
+.detail h2 span{
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.disc{
+  font-size: 36px;
+  width: 98%;
+  padding: 6px;
+}
+.foot{
+  width: 98%;
+  margin: 10px auto;
+  border-top:1px solid #929191;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag{
+  font-size: 18px;
+  padding: auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag h3{
+  padding: auto 10px;
+}
+.price h3{
+  font-size: 20px;
+  padding: 6px;
+  background-color: #d6d1d1;
+  color: rgb(0, 110, 255);
+  border-radius: 30px;
+  width: fit-content;
+}
